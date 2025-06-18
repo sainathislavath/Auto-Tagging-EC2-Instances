@@ -41,9 +41,8 @@ Automatically tag newly launched EC2 instances with custom metadata like launch 
   "detail-type": ["AWS API Call via CloudTrail"],
   "detail": {
     "eventName": ["RunInstances"]
-  }
-}
-    ```
+        }
+    }
 - Target: Lambda function → AutoTagEC2OnLaunch
 
 ![Create CloudWatch EventBridge](screenshots/5.6.png)
