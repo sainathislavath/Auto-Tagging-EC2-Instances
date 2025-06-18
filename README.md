@@ -1,4 +1,4 @@
-# ✅ Assignment 5: Auto-Tag EC2 Instances on Launch Using AWS Lambda & Boto3
+# Assignment 5: Auto-Tag EC2 Instances on Launch Using AWS Lambda & Boto3
 
 ## Objective
 Automatically tag newly launched EC2 instances with custom metadata like launch time, environment, and creator using AWS Lambda and Boto3.
