@@ -35,7 +35,7 @@ Automatically tag newly launched EC2 instances with custom metadata like launch 
 - Rule Name: ec2-launch-autotag
 - Event Source: AWS Events
 - Event Pattern:
-    - ```json
+    ```json
     {
   "source": ["aws.ec2"],
   "detail-type": ["AWS API Call via CloudTrail"],
